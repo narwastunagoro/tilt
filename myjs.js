@@ -1,0 +1,1 @@
+(function($){'use strict';$(document).on('ready',function(){var s=$(".tiltfx .oxy-gallery-item");s.addClass("tiltgal");$('.tiltgal').tilt({scale:0.8,perspective:200,glare:!0,maxGlare:0.5,});$('.tilt').tilt({perspective:400,transition:!0,speed:1000,})})}(jQuery))
